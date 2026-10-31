@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>⌨️ Typing Speed Test</h1>
+        <p>Test your typing speed and accuracy!</p>
+
+        <div class="stats">
+            <div class="stat">
+                <h2 id="time">60</h2>
+                <p>Seconds</p>
+            </div>
+
+            <div class="stat">
+                <h2 id="wpm">0</h2>
+                <p>WPM</p>
+            </div>
+
+            <div class="stat">
+                <h2 id="accuracy">100%</h2>
+                <p>Accuracy</p>
+            </div>
+        </div>
+
+        <h3>Type the following sentence:</h3>
+
+        <div id="sentence" class="sentence"></div>
+
+        <textarea id="input"
+            placeholder="Start typing here..."
+            disabled></textarea>
+
+        <button id="start">Start Test</button>
+        <button id="reset">Reset</button>
+
+        <h2 id="result"></h2>
+    </div>
+
+    <script src="logic.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
